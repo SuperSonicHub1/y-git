@@ -1,0 +1,30 @@
+{
+  "name": "y-git",
+  "version": "1.0.0",
+  "description": "Git persistence layer for Y.js",
+  "scripts": {
+    "test": "npm run prepublish && node test.mjs",
+    "prepublish": "tsc"
+  },
+  "type": "module",
+  "main": "lib/indexs.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "author": "Kyle Anthony Williams <kyle.anthony.williams2@gmail.com>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/nodegit": "^0.28.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "lib0": "^0.2.60",
+    "nodegit": "^0.27.0",
+    "yjs": "^13.5.44"
+  }
+}

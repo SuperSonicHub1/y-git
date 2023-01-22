@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+rm -rf test-repo/
+mkdir test-repo/
+cd test-repo/ || exit 1
+touch updates
+git init
+git add updates
+git commit -m "Initial update."
